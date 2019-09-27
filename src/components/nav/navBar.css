@@ -3,7 +3,7 @@ small {
   }
 
   header {
-    background-color:darkblue;
+    background-color:goldenrod;
     border: cornflowerblue solid 3px;
   }
 
@@ -23,7 +23,7 @@ small {
     padding: 10px;
     text-align: center;
     font-size: 1.5em;
-    color: cornsilk;
+    color: brown;
     box-sizing: border-box;
     background-color: cornflowerblue;
     list-style-type: none;
