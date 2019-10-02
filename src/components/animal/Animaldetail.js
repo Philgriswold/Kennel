@@ -16,7 +16,9 @@ class AnimalDetail extends Component {
     .then((animal) => {
       this.setState({
         name: animal.name,
-        breed: animal.breed
+        breed: animal.breed,
+        imageUrl: animal.url,
+        loadingStatus: false
       });
     });
   }
@@ -27,6 +29,11 @@ class AnimalDetail extends Component {
     .then(() => this.props.history.push("/animals"))
 }
   render() {
+    if(this.state.loadingStatus) {
+      return <p>Loading...</p>
+    } else {
+    }
+
     return (
       <div className="card">
         <div className="card-content">

@@ -44,11 +44,15 @@
   "locations": [
     {
       "id": 1,
-      "name": "Nashville"
+      "name": "Nashville",
+      "title": "Nashville",
+      "url": "./images/nashville.jpeg"
     },
     {
       "id": 2,
-      "name": "Murfreesboro"
+      "name": "Murfreesboro",
+      "title": "Murfreesboro",
+      "url": "images/murfreesboro.jpeg"
     }
   ]
 }

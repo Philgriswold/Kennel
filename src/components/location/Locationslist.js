@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 //import the components we will need
-import LocationCard from '../animal/animalcard'
+import LocationCard from './locationcard'
 import LocationManager from '../../modules/LocationManager'
 
 class LocationList extends Component {

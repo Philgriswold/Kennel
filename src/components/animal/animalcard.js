@@ -11,7 +11,7 @@ class AnimalCard extends Component {
           <p>Breed: {this.props.animal.breed}</p>
           <img src={require(`${this.props.animal.url}`)}/>
           <button type="button" onClick={() => this.props.deleteAnimal(this.props.animal.id)}>Discharge</button>
-          <button type="button" onClick={this.myScopedFunction}>ConsoleLogButton</button>
+          <button type="button" onClick={this.myScopedFunction}>Button</button>
         </div>
       </div>
     );

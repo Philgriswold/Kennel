@@ -6,7 +6,7 @@ class OwnerCard extends Component {
       <div className="card">
         <div className="card-content">
           <picture>
-            <img src={require(`${this.props.owner.url}`)} alt="The Owner"/>
+             <img src={require("./images/owner.png")} alt="the owner" />
           </picture>
           <h3>Owner Name: <span className="card-ownername">Bill</span></h3>
           <p>Dog Breed Owned: Poodle</p>

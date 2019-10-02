@@ -15,3 +15,4 @@ delete(id) {
   .then(result => result.json())
 }}
 
+export default EmployeeManager;

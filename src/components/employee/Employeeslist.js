@@ -26,7 +26,8 @@ render(){
     return(
         <div className="container-cards">
             {this.state.employees.map(employee =>
-            <EmployeeCard key={employee.id} employee={employee}/>)}
+            <EmployeeCard key={employee.id} employee={employee}
+            deleteEmployee={this.deleteEmployee}/>)}
         </div>
     )
 }
