@@ -6,10 +6,11 @@ class EmployeeCard extends Component {
       <div className="card">
         <div className="card-content">
           <picture>
-            <img src={require('./employee.jpg')} alt="Employee" />
+            <img src={require(`${this.props.employees.url}`)} alt="an employee"></img>
           </picture>
           <h3>Name: <span className="card-employee">Mr. Sad Face</span></h3>
           <p>Title: Mr. Employee</p>
+          <button type="button" onClick={() => this.props.deleteEmployee(this.props.employee.id)}>Fire</button>
         </div>
       </div>
     );

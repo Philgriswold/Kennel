@@ -1,7 +1,54 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Decker", "breed": "German Sheperd" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Rowdy",
+      "breed": "Bulldog",
+      "url": "./images/bulldog.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Frank",
+      "breed": "Pit Bull",
+      "url": "./images/pitbull.jpeg"
+    },
+    {
+       "id": 3,
+       "name": "Sheena",
+       "breed": "Shiba Inu",
+       "url": "./images/shiba.jpg"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Bill",
+      "title": "Owner",
+      "url": "./images/owner.png"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "John",
+      "title": "Employee",
+      "url": "./images/employee.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "title": "Employee",
+      "url": "./images/female.png"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville"
+    },
+    {
+      "id": 2,
+      "name": "Murfreesboro"
+    }
+  ]
 }
