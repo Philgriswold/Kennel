@@ -4,19 +4,22 @@
       "id": 1,
       "name": "Rowdy",
       "breed": "Bulldog",
-      "url": "./images/bulldog.jpeg"
+      "url": "./images/bulldog.jpeg",
+      "EmployeeId": 1
     },
     {
       "id": 2,
       "name": "Frank",
       "breed": "Pit Bull",
-      "url": "./images/pitbull.jpeg"
+      "url": "./images/pitbull.jpeg",
+      "EmployeeId": 2
     },
     {
        "id": 3,
        "name": "Sheena",
        "breed": "Shiba Inu",
-       "url": "./images/shiba.jpg"
+       "url": "./images/shiba.jpg",
+       "EmployeeId": 3
     }
   ],
   "owners": [
@@ -30,13 +33,13 @@
   "employees": [
     {
       "id": 1,
-      "name": "John",
+      "name": "Mr.Sad Face",
       "title": "Employee",
       "url": "./images/employee.jpg"
     },
     {
       "id": 2,
-      "name": "Jane",
+      "name": "Tina Face",
       "title": "Employee",
       "url": "./images/female.png"
     }
