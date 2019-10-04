@@ -51,7 +51,7 @@ class EmployeeDetail extends Component {
             <div className="card">
               <div className="card-content">
                 <picture>
-                  <img className={this.state.id === 4 ? "spinner" : ""} src={require(`./Images/${this.state.url}`)} alt="Good Boi with a job" />
+                  <img className={this.state.id === 4 ? "spinner" : ""} src={require(`./Images/${this.state.url}`)} alt="an employee" />
                 </picture>
                 <h3>Name: <span className={this.state.employeeOftheMonth === "true" ? "EmployeeOfTheMonth" : "card-Employeename"}>{this.state.name}</span></h3>
                 {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import OwnerList from "./OwnerList"
 
 class OwnerCard extends Component {
   render() {

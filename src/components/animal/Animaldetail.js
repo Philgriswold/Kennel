@@ -53,7 +53,7 @@ class AnimalDetail extends Component {
         <div className="card-content">
           <picture>
             <img src={require('./dog.svg')} alt="My Dog" />
-            <img src={require(`./Images/${this.state.url}`)} alt="My Dog" />
+            <img src={require(`${this.state.url}`)} alt="My Dog" />
           </picture>
             <h3>Name: <span style={{ color: 'darkslategrey' }}>{this.state.name}</span></h3>
             <p>Breed: {this.state.breed}</p>

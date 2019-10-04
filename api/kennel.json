@@ -4,22 +4,19 @@
       "id": 1,
       "name": "Rowdy",
       "breed": "Bulldog",
-      "url": "./images/bulldog.jpeg",
-      "EmployeeId": 1
+      "url": "./images/bulldog.jpeg"
     },
     {
       "id": 2,
       "name": "Frank",
       "breed": "Pit Bull",
-      "url": "./images/pitbull.jpeg",
-      "EmployeeId": 2
+      "url": "./images/pitbull.jpeg"
     },
     {
-       "id": 3,
-       "name": "Sheena",
-       "breed": "Shiba Inu",
-       "url": "./images/shiba.jpg",
-       "EmployeeId": 3
+      "id": 3,
+      "name": "Sheera",
+      "breed": "Shiba Inu",
+      "url": "./images/shiba.jpg"
     }
   ],
   "owners": [
@@ -32,8 +29,8 @@
   ],
   "employees": [
     {
-      "id": 1,
-      "name": "Mr.Sad Face",
+      "id": 2,
+      "name": "Mr. Sad Face",
       "title": "Employee",
       "url": "./images/employee.jpg"
     },
@@ -49,13 +46,13 @@
       "id": 1,
       "name": "Nashville",
       "title": "Nashville",
-      "url": "./images/nashville.jpeg"
+      "url": "nashville.jpeg"
     },
     {
       "id": 2,
       "name": "Murfreesboro",
       "title": "Murfreesboro",
-      "url": "images/murfreesboro.jpeg"
+      "url": "murfreesboro.jpeg"
     }
   ]
 }

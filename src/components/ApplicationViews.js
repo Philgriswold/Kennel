@@ -56,14 +56,18 @@ class ApplicationViews extends Component {
             return <Redirect to="/login" />
           }
         }} />
-        <Route exact path="/employee" render={(props) => {
+        <Route exact path="/employees" render={(props) => {
           if (this.isAuthenticated()) {
             return <EmployeeList {...props} />
           } else {
             return <Redirect to="/login" />
           }
         }} />
-        <Route exact path="/employee/:employeeId(\d+)/details" render={(props) => {
+         <Route path="/employees/:employeeId(\d+)" render={(props) => {
+                    // Pass the animalId to the AnimalDetailComponent
+                    return <EmployeeDetail employeeId={parseInt(props.match.params.ownerId)}{...props} />
+                }} />
+         <Route exact path="/employee/:employeeId(\d+)/details" render={(props) => {
           if (this.isAuthenticated()) {
             // Pass the animalId to the EmployeeDetailComponent//
             return <EmployeeWithAnimals employeeId={parseInt(props.match.params.employeeId)} {...props} />
@@ -92,10 +96,21 @@ class ApplicationViews extends Component {
             return <Redirect to="/login" />
           }
         }} />
-        <Route exact path="/Location" render={(props) => {
+        <Route exact path="/locations" render={(props) => {
           return <LocationList />
         }} />
-        <Route path="/login" component={Login} />
+
+        <Route exact path="/animals" render={props => {
+          if (this.props.user) {
+          return <AnimalList {...props} />
+        } else {
+          return <Redirect to="/login" />
+    }
+}} />
+        <Route path="/login" render={props => {
+         return <Login setUser={this.props.setUser} {...props} />
+}} />
+        {/* <Route path="/login" component={Login} /> */}
       </React.Fragment>
     )
   }
