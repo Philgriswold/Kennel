@@ -31,12 +31,12 @@
     {
       "id": 2,
       "name": "Mr. Sad Face",
-      "title": "Employee",
+      "employeeOftheMonth": "Trina",
       "url": "./images/employee.jpg"
     },
     {
       "id": 2,
-      "name": "Tina Face",
+      "name": "Bob",
       "title": "Employee",
       "url": "./images/female.png"
     }
